@@ -1,0 +1,37 @@
+Bankowa aplikacja mobilna - Adrian Kula, Paweł Szum
+
+Cel: wygodne zarządzanie kontem bankowym w telefonie
+
+W aplikacji powinniśmy mieć łatwy dostęp do poszczególnych funkcjonalności.
+W przyszłości mogą zostać dodane nowe.
+
+Przypadki użycia:
+- Logowanie się do aplikacji (pierwsze logowanie na dane przydzielone przez bank)
+- Założenie konta w banku
+- Zmiana danych (np. hasło do konta, nr telefonu, e-mail)
+- Sprawdzenie stanu konta 
+- Sprawdzenie historii transakcji
+- Sprawdzanie szczegółowych informacji o wybranych transakcjach
+- Wzięcie kredytu
+- Wyświetlanie krótkich opisów funcjonalności
+- Wykonanie przelewu
+
+
+
+Wykonanie przelewu
+
+Cel: Użytkownik chce przelać pieniądze ze swojego konta na inne
+
+Warunki wstępne: użytkownik musi być zalogowany
+
+Kroki:
+1. Wybranie opcji wykonania przelewu.
+2. Wprowadzenie nr konta, nazwy adresata, tytułu przelewu, wysokości przelewu.
+3. Potwierdzenie/anulowanie wykonania przelewu.
+
+Wynik:
+Jeżeli użytkownik wprowadził poprawne dane i ma wystarczającą ilość środków na koncie, przelew zostanie zrealizowany. 
+W przeciwnym wypadku użytkownik zostanie poinformowany o błędzie i będzie miał ponownie możliwość wpisania danych.
+
+Opcjonalne kroki:
+2a. Wprowadzenie adresu adresata.
